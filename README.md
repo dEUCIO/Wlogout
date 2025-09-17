@@ -1,2 +1,2 @@
 # Wlogout
-My config
+My config and the background image I do use.
