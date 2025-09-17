@@ -14,11 +14,11 @@ window {
 }
 button {
     border-radius: 100;
-    border-color: #8F8F8F;
+    border-color: #181401;
 	text-decoration-color: #000000;
     color: #FFFFFF;
 	background-color: rgba(206, 168, 130, 0.7);
-	border-style: inset;
+	border-style: double;
 	border-width: 4px;
 	background-repeat: no-repeat;
 	background-position: center;
