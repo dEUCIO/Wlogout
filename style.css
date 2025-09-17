@@ -1,0 +1,57 @@
+* {
+	all: unset;
+	background-image: none;
+	box-shadow: none;
+	
+}
+
+window {
+	background: url("./Kuniyoshi01.jpg"), rgba(100, 95, 85, 0.2);
+	background-size: 100% 100%;
+	background-position: center;
+	font-family: awesome;
+	font-size: 14pt;
+	color: #212121;
+}
+
+button {
+    border-radius: 20;
+    border-color: black;
+	text-decoration-color: #FFFFFF;
+    color: #212121;
+	background-color: rgba(163, 189, 83, 0.7);
+	border-style: inset;
+	border-width: 1px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 20%;
+}
+
+ button:hover {
+	background-color: rgba(130, 154, 9, 0.4);
+	outline-style: none;
+}
+
+#lock {
+    background-image: image(url("/usr/share/wlogout/icons/lock.png"), url("/usr/local/share/wlogout/icons/lock.png"));
+}
+
+#logout {
+    background-image: image(url("/usr/share/wlogout/icons/logout.png"), url("/usr/local/share/wlogout/icons/logout.png"));
+}
+
+#suspend {
+    background-image: image(url("/usr/share/wlogout/icons/suspend.png"), url("/usr/local/share/wlogout/icons/suspend.png"));
+}
+
+#hibernate {
+    background-image: image(url("/usr/share/wlogout/icons/hibernate.png"), url("/usr/local/share/wlogout/icons/hibernate.png"));
+}
+
+#shutdown {
+    background-image: image(url("/usr/share/wlogout/icons/shutdown.png"), url("/usr/local/share/wlogout/icons/shutdown.png"));
+}
+
+#reboot {
+    background-image: image(url("/usr/share/wlogout/icons/reboot.png"), url("/usr/local/share/wlogout/icons/reboot.png"));
+}
